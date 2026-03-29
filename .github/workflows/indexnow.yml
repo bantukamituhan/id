@@ -3,7 +3,7 @@ name: IndexNow
 on:
   push:
     branches:
-      - main  # Ganti jadi 'master' jika itu nama branch utama Anda
+      - master  # Ganti jadi 'master' jika itu nama branch utama Anda
   workflow_dispatch: # Memungkinkan Anda menjalankan ini secara manual jika perlu
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: IndexNow Action
-        uses: amandres/indexnow-action@v2
+        uses: bantukamituhan/indexnow-action@v2
         with:
           sitemap-location: 'https://bantukamituhan.github.io/id/sitemap.xml'
           key: '8572b9a7c6d44e80823719274028681d'
