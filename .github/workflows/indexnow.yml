@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: IndexNow Action
-        uses: bojan88/indexnow-action@v2
+        uses: bojan88/indexnow-action@master
         with:
           sitemap-location: 'https://bantukamituhan.github.io/id/sitemap.xml'
           key: '8572b9a7c6d44e80823719274028681d'
