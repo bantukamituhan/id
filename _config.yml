@@ -2,3 +2,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+include:
+  - sitemap.xml
+  - 8572b9a7c6d44e80823719274028681d.txt
